@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 16
     },
     nome: {
+        color: 'white',
         fontSize: 32
     }
 });
@@ -44,8 +45,8 @@ export default function Contato() {
         )
     }
 
-    const Item = ({nome}) => {
-        return ( 
+    const Item = ({ nome }) => {
+        return (
             <View style={styles.item}>
                 <Text style={styles.nome}>{nome}</Text>
             </View>
